@@ -7,9 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint --fix src/*.js",
     "prettier": "prettier --write src/*.js",
-    "parcel": "parcel index.html",
-    "build": "parcel build src/index.html --out-dir docs --public-url /storytelling-first-homework"
-
+    "parcel": "parcel src/index.html",
+    "serve": "serve src/index.html",
+    "build": "parcel build src/index.html --out-dir docs --public-url /storytelling-first-homework --no-cache"
   },
   "author": "",
   "license": "ISC",
@@ -24,7 +24,7 @@
     "eslint-plugin-standard": "^4.0.0",
     "prettier": "^1.14.2"
   },
-    "dependencies": {
+  "dependencies": {
     "d3": "^5.7.0",
     "parcel": "^1.9.7"
   }
