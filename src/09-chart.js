@@ -1,5 +1,5 @@
+import * as d3 from 'd3'
 ;(function() {
-  /* global d3 */
   // DO NOT EDIT ANYTHING IN THIS FILE
   d3.csv(require('./fake-data.csv'))
     .then(ready)

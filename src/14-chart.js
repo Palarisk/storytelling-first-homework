@@ -1,8 +1,8 @@
+import * as d3 from 'd3'
 ;(function() {
   // Build your SVG here
   // using all of that cut-and-paste magic
 
-  /* global d3 */
   var margin = { top: 20, right: 20, bottom: 20, left: 60 }
 
   var width = 600 - margin.left - margin.right

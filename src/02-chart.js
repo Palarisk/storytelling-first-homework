@@ -1,6 +1,5 @@
+import * as d3 from 'd3'
 ;(function() {
-  
-  /* global d3 */
   // Here is your data
   var countries = [
     {

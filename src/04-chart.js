@@ -1,5 +1,5 @@
+import * as d3 from 'd3'
 ;(function() {
-
   var height = 400
   var width = 400
 
