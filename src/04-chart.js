@@ -1,5 +1,5 @@
 ;(function() {
-  /* global d3 */
+
   var height = 400
   var width = 400
 
