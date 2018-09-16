@@ -1,8 +1,5 @@
 import * as d3 from 'd3'
 
-;(function() {
-
-  /* global d3 */
   var widthScale = d3
     .scaleLinear()
     .domain([0, 200])
@@ -15,4 +12,4 @@ import * as d3 from 'd3'
   var rect = svg.select('rect')
 
   rect.attr('fill', colorScale('woman')).attr('width', widthScale(165))
-})()
+()
